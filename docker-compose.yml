@@ -1,0 +1,20 @@
+version: "3"
+services:
+  mongo:
+    image: mongo:4.4
+    restart: always
+    ports:
+      - "27017:27017"
+
+  api:
+    restart: always
+    build: .
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/iouu-test
+      - PORT=5050
+      - JWT_SECRET=SldUX3NpY2Nsb3Vk
+      - NODE_ENV=development
+    ports:
+      - "5050:5050"
+    links:
+      - mongo
