@@ -4,7 +4,7 @@
 
 ## :triangular_flag_on_post: Starting
 
-The project was created from the boilerplate developed and maintained by [Douglas Denys](https://github.com/doga10/clean-architecture-node), where it was used NodeJs + TypeScript + TDD + Clean Architecture.
+The project was created from the boilerplate developed and maintained by [Douglas Dennys](https://github.com/doga10/clean-architecture-node), where it was used NodeJs + TypeScript + TDD + Clean Architecture.
 
 ## :checkered_flag: Dependencies
 
