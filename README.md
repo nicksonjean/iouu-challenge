@@ -24,7 +24,7 @@ To use this repository, follow the steps:
 1 - Construction of a price table for financing. Where it is received as parameters to calculate the value of the parcels, as the following example: <http://www.drcalc.net/price.asp?it=5&ml=Calc>
 2 - It is possible to renegotiate the price table, if the borrower is unable to pay in a certain installment and thus, a new price table will be recreated from the last installment paid. And when consuming the price table it must be adjusted.
 
-### <p style="font-size:30px; font-weight:bold;"><img style="position:relative; top:-4px;" src="./assets/swagger-logo.png" height="40" align="center" /> Documentation</p>
+### <p style="font-size:30px; font-weight:bold;"><img style="position:relative; top:-4px;" src="./assets/swagger-logo.png" height="30" align="center" /> &nbsp;Documentation</p>
 
 After the service has been properly started, according to the steps previously described, the functionality documentation for this project can be found in the swagger, in [User Guide](http://localhost:5050/api-docs).
 
