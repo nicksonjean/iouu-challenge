@@ -1,8 +1,8 @@
 export const addSimulator = {
   post: {
-    tags: ['Realizar Financiamento'],
-    summary: 'API para realizar o financiamento',
-    description: 'Essa rota pode ser executada por **qualquer usuário**',
+    tags: ['Make Financing'],
+    summary: 'API to perform the financing',
+    description: 'This route can be performed by ** any user **',
     requestBody: {
       required: true,
       content: {
@@ -15,7 +15,7 @@ export const addSimulator = {
     },
     responses: {
       204: {
-        description: 'Sucesso',
+        description: 'Success',
         content: {
           'application/json': {}
         }

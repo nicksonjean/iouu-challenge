@@ -6,7 +6,7 @@ export default {
   openapi: '3.0.0',
   info: {
     title: 'IOUU - Challenge (API PriceTable)',
-    description: 'Essa é a documentação da API feita por Nickson Jeanmerson para o desafio da IOUU.',
+    description: 'This is the API documentation made by Nickson Jeanmerson for the IOUU challenge.',
     version: '1.0.0',
     contact: {
       name: 'Nickson Jeanmerson',
@@ -15,7 +15,7 @@ export default {
   },
   servers: [{
     url: '/api',
-    description: 'Servidor Principal'
+    description: 'Main Server'
   }],
   paths,
   schemas,

@@ -1,8 +1,8 @@
 export const searchSimulator = {
   post: {
-    tags: ['Busca de Financiamento'],
-    summary: 'API para realizar a busca de um financiamento',
-    description: 'Essa rota pode ser executada por **qualquer usuário**',
+    tags: ['Financing Search'],
+    summary: 'API to perform the search for funding',
+    description: 'This route can be performed by ** any user **',
     requestBody: {
       required: true,
       content: {
@@ -15,7 +15,7 @@ export const searchSimulator = {
     },
     responses: {
       204: {
-        description: 'Sucesso',
+        description: 'Success',
         content: {
           'application/json': {}
         }

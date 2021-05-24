@@ -1,12 +1,12 @@
 export const payPath = {
   put: {
-    tags: ['Pagar Parcela'],
-    summary: 'API para quitar 1 parcela',
-    description: 'Essa rota pode ser executada por **qualquer usuário**',
+    tags: ['Pay Installment'],
+    summary: 'API to settle 1 installment',
+    description: 'This route can be performed by ** any user **',
     parameters: [{
       in: 'path',
       name: 'id',
-      description: 'ID da conta',
+      description: 'Account ID',
       required: true,
       schema: {
         type: 'string'
@@ -14,9 +14,9 @@ export const payPath = {
     }],
     responses: {
       204: {
-        description: 'Sucesso',
+        description: 'Success',
         content: {
-          'application/json': { }
+          'application/json': {}
         }
       },
       400: {

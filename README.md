@@ -16,6 +16,7 @@ The project was created from the boilerplate developed and maintained by [Dougla
 To use this repository, follow the steps:
 
 > git clone <https://github.com/nicksonjean/iouu-challenge.git>\
+> cd iouu-challenge\
 > npm install\
 > docker compose up
 
